@@ -1,4 +1,6 @@
 import { AboutMeContainer, AboutMeContent, AboutMeImageHorizontal, AboutMeImages, AboutMeImageVertical } from "./style";
+import profilePic1 from '/public/static/ricardo-lyra-profile-2.jpg'
+import profilePic2 from '/public/static/ricardo-lyra-profile-3.jpg'
 
 export  function AboutMe() {
   return (
@@ -7,8 +9,8 @@ export  function AboutMe() {
 
         <AboutMeContent>
             <AboutMeImages >
-                <AboutMeImageHorizontal src="../../../public/static/ricardo-lyra-profile-3.jpg" alt="" />
-                <AboutMeImageVertical src="../../../public/static/ricardo-lyra-profile-2.jpg" alt="" />
+                <AboutMeImageHorizontal src={profilePic2} alt="" />
+                <AboutMeImageVertical src={profilePic1} alt="" />
             </AboutMeImages>
 
            <div>
