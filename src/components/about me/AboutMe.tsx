@@ -9,8 +9,8 @@ export  function AboutMe() {
 
         <AboutMeContent>
             <AboutMeImages >
-                <AboutMeImageHorizontal src={profilePic2} alt="" />
-                <AboutMeImageVertical src={profilePic1} alt="" />
+                <AboutMeImageHorizontal src={profilePic2} alt="ricardo lyra profile" />
+                <AboutMeImageVertical src={profilePic1} alt="ricardo lyra profile"/>
             </AboutMeImages>
 
            <div>

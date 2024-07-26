@@ -1,5 +1,7 @@
 import { ArrowRight } from "@phosphor-icons/react";
 import { Button, DivCard, DivImg, SpecializationContainer, SpecializationContent } from "./style";
+import logoUrology from '/public/static/urologia.svg'
+import logoIconAndrology from '/public/static/espermatozoides.svg'
 
 export function Specialization() {
     return (
@@ -9,7 +11,7 @@ export function Specialization() {
             <SpecializationContent >
                 <DivCard>
                     <DivImg>
-                        <img src="../../../public/static/urologia.svg" />
+                        <img src={logoUrology} />
                     </DivImg>
 
                     <h3>Urologia</h3>
@@ -28,7 +30,7 @@ export function Specialization() {
                 </DivCard>
                 <DivCard>
                     <DivImg>
-                        <img src="../../../public/static/espermatozoides.svg" />
+                        <img src={logoIconAndrology}/>
                     </DivImg>
 
                     <h3>Andrologia</h3>

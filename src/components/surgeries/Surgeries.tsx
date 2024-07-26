@@ -1,54 +1,54 @@
 import { DivSurgeriesCard, DivSurgeriesCardText, SurgeriesContainer, SurgeriesContent } from "./style"
+import testiculos from '/public/static/testiculos.svg';
+import familia from '/public/static/familia.svg';
+import banana from '/public/static/banana.svg';
+import anzol from '/public/static/anzol.svg';
+import captacaoEspermatozoide from '/public/static/captacao-espermatozoide.svg';
+import lupa from '/public/static/lupa.svg';
+import seringa from '/public/static/seringa.svg';
+import vascular from '/public/static/vascular.svg';
 
 
 const surgeries = [
     {
         name: "Varicocele Microcirúrgica",
-        photo: "../../../public/static/testiculos.svg",
-        description:
-            "Procedimento minimamente invasivo para tratar varicocele, melhorando a fertilidade masculina.",
+        photo: testiculos,
+        description: "Procedimento minimamente invasivo para tratar varicocele, melhorando a fertilidade masculina.",
     },
     {
         name: "Reversão de Vasectomia",
-        photo: "../../../public/static/familia.svg",
-        description:
-            "Cirurgia que reconecta os ductos deferentes, restaurando a fertilidade após uma vasectomia.",
+        photo: familia,
+        description: "Cirurgia que reconecta os ductos deferentes, restaurando a fertilidade após uma vasectomia.",
     },
     {
         name: "Implante de Prótese Peniana Rígida e Inflável",
-        photo: "../../../public/static/banana.svg",
-        description:
-            "Implante cirúrgico de próteses para tratar disfunção erétil, com opções rígidas ou infláveis.",
+        photo: banana,
+        description: "Implante cirúrgico de próteses para tratar disfunção erétil, com opções rígidas ou infláveis.",
     },
     {
         name: "Tratamento da Curvatura Peniana (Doença de Peyronie)",
-        photo: "../../../public/static/anzol.svg",
-        description:
-            "Correção cirúrgica da curvatura peniana causada pela doença de Peyronie, melhorando a função sexual.",
+        photo: anzol,
+        description: "Correção cirúrgica da curvatura peniana causada pela doença de Peyronie, melhorando a função sexual.",
     },
     {
         name: "Captação de Espermatozóide (PESA)",
-        photo: "../../../public/static/captacao-espermatozoide.svg",
-        description:
-            "Procedimento de extração de espermatozoides do epidídimo para uso em fertilização assistida.",
+        photo: captacaoEspermatozoide,
+        description: "Procedimento de extração de espermatozoides do epidídimo para uso em fertilização assistida.",
     },
     {
         name: "Microdissecção Testicular",
-        photo: "../../../public/static/lupa.svg",
-        description:
-            "Técnica avançada para recuperar espermatozoides diretamente do tecido testicular em casos de azoospermia.",
+        photo: lupa,
+        description: "Técnica avançada para recuperar espermatozoides diretamente do tecido testicular em casos de azoospermia.",
     },
     {
         name: "Estética Genital",
-        photo: "../../../public/static/seringa.svg",
-        description:
-            "Procedimentos cosméticos para melhorar a aparência e função dos órgãos genitais, personalizando resultados.",
+        photo: seringa,
+        description: "Procedimentos cosméticos para melhorar a aparência e função dos órgãos genitais, personalizando resultados.",
     },
     {
         name: "Doppler Peniano",
-        photo: "../../../public/static/vascular.svg",
-        description:
-            "Exame de ultrassom para avaliar o fluxo sanguíneo peniano e diagnosticar disfunções vasculares.",
+        photo: vascular,
+        description: "Exame de ultrassom para avaliar o fluxo sanguíneo peniano e diagnosticar disfunções vasculares.",
     },
 ];
 
