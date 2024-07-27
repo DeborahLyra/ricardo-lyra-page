@@ -1,6 +1,6 @@
 import { MapPin, Phone, WhatsappLogo } from "@phosphor-icons/react";
 import { ContactContainer, ContactContent, ContactContentDiv, ContactInfo, ContactInfoContainer } from "./style";
-
+import androsLogo from "/public/static/andros.png"
 
 export function Contact() {
   return (
@@ -24,7 +24,7 @@ export function Contact() {
             </ContactInfo>
           </ContactInfoContainer>
           <div>
-            <img src="../../../public/static/andros.png" alt="andros recife" />
+            <img src={androsLogo} alt="andros recife" />
           </div>
         </ContactContentDiv>
       </ContactContent>
