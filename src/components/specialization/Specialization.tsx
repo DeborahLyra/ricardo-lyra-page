@@ -2,6 +2,7 @@ import { ArrowRight } from "@phosphor-icons/react";
 import { Button, DivCard, DivImg, SpecializationContainer, SpecializationContent } from "./style";
 import logoUrology from '/public/static/urologia.svg'
 import logoIconAndrology from '/public/static/espermatozoides.svg'
+import { Link } from "react-router-dom";
 
 export function Specialization() {
     return (
@@ -21,12 +22,12 @@ export function Specialization() {
                         atuando no tratamento clinico e cirúrgico de enfermidades que afetam
                         esses órgãos
                     </p>
-                    <a href="/urologia">
+                    <Link to="/urologia">
                     <Button>
                         Saiba mais
                         <ArrowRight size={24} className="arrow"/>
                     </Button>
-                    </a>
+                    </Link>
                 </DivCard>
                 <DivCard>
                     <DivImg>
@@ -39,12 +40,12 @@ export function Specialization() {
                         particularmente em relação às suas funções reprodutoras e sexuais.
                         Andrologista é cuidar da saúde sexual e reprodutiva do homem.
                     </p>
-                    <a href="/andrologia">
+                    <Link to="/andrologia">
                     <Button>
                         Saiba mais
                         <ArrowRight size={24} className="arrow"/>
                     </Button>
-                    </a>
+                    </Link>
                 </DivCard>
             </SpecializationContent>
 
