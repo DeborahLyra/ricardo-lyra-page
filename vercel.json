@@ -1,0 +1,6 @@
+{
+    "rewrites":  [
+      {"source": "/urologia", "destination": "/urologia"},
+      {"source": "/andrologia", "destination": "andrologia"}
+    ]
+  }
