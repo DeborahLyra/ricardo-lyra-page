@@ -23,6 +23,12 @@ export const DivSurgeriesCardText = styled.div`
       margin-top: 0.5rem;
     
     }
+
+    @media (max-width: 768px) {
+      p {
+        font-size: 1rem;
+      }
+  }
 `
 
 export const SurgeriesContent = styled.div`
