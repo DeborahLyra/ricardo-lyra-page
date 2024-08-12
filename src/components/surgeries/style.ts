@@ -48,6 +48,17 @@ export const SurgeriesContent = styled.div`
   &::-webkit-scrollbar-thumb:hover {
     background: var(--blue-medium); 
   }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));
+    pointer-events: none;
+  }
 `;
 
 export const DivSurgeriesCard = styled.div`

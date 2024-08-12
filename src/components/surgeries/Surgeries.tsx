@@ -7,13 +7,19 @@ import captacaoEspermatozoide from '/public/static/captacao-espermatozoide.svg';
 import lupa from '/public/static/lupa.svg';
 import seringa from '/public/static/seringa.svg';
 import vascular from '/public/static/vascular.svg';
+import seta from '/public/static/seta.svg';
 
 
 const surgeries = [
     {
-        name: "Varicocele Microcirúrgica",
-        photo: testiculos,
-        description: "Procedimento minimamente invasivo para tratar varicocele, melhorando a fertilidade masculina.",
+        name: "Doppler Peniano",
+        photo: vascular,
+        description: "Exame de ultrassom para avaliar o fluxo sanguíneo peniano e diagnosticar disfunções vasculares.",
+    },
+    {
+        name: "Engrossamento Peniano",
+        photo: seta,
+        description: "Procedimento estético que visa aumentar a circunferência peniana, utilizando técnicas variadas para resultados personalizados.",
     },
     {
         name: "Reversão de Vasectomia",
@@ -21,15 +27,17 @@ const surgeries = [
         description: "Cirurgia que reconecta os ductos deferentes, restaurando a fertilidade após uma vasectomia.",
     },
     {
-        name: "Implante de Prótese Peniana Rígida e Inflável",
-        photo: banana,
-        description: "Implante cirúrgico de próteses para tratar disfunção erétil, com opções rígidas ou infláveis.",
-    },
-    {
         name: "Tratamento da Curvatura Peniana (Doença de Peyronie)",
         photo: anzol,
         description: "Correção cirúrgica da curvatura peniana causada pela doença de Peyronie, melhorando a função sexual.",
     },
+   
+    {
+        name: "Implante de Prótese Peniana Rígida e Inflável",
+        photo: banana,
+        description: "Implante cirúrgico de próteses para tratar disfunção erétil, com opções rígidas ou infláveis.",
+    },
+ 
     {
         name: "Captação de Espermatozóide (PESA)",
         photo: captacaoEspermatozoide,
@@ -46,10 +54,11 @@ const surgeries = [
         description: "Procedimentos cosméticos para melhorar a aparência e função dos órgãos genitais, personalizando resultados.",
     },
     {
-        name: "Doppler Peniano",
-        photo: vascular,
-        description: "Exame de ultrassom para avaliar o fluxo sanguíneo peniano e diagnosticar disfunções vasculares.",
+        name: "Varicocele Microcirúrgica",
+        photo: testiculos,
+        description: "Procedimento minimamente invasivo para tratar varicocele, melhorando a fertilidade masculina.",
     },
+   
 ];
 
 export function Surgeries() {
