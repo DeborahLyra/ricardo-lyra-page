@@ -24,7 +24,7 @@ export const DivSurgeriesCardText = styled.div`
     
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 420px) {
       width: 80%;
       p {
         font-size: 1rem;
