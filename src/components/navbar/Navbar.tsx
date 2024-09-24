@@ -1,7 +1,5 @@
-
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { useState } from 'react';
 
 const navigation = [
     { name: 'Sobre mim', href: '#aboutMe', current: false },
