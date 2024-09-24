@@ -1,6 +1,7 @@
 
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useState } from 'react';
 
 const navigation = [
     { name: 'Sobre mim', href: '#aboutMe', current: false },
@@ -13,7 +14,8 @@ function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Navbar() {
+export default function Navbar({ openQuestionnaire }: { openQuestionnaire: () => void }) {
+    
     return (
         <Disclosure as="nav" className="bg-transparent">
             <div className="mx-auto max-w-8xl px-2 sm:px-6 lg:px-1">
@@ -30,6 +32,12 @@ export default function Navbar() {
                         
                         <div className="hidden sm:ml-6 sm:block">
                             <div className="flex space-x-4">
+                            <button
+                                    onClick={openQuestionnaire}
+                                    className='text-black hover:bg-sky-700 hover:text-white rounded-md px-3 py-2 text-md font-medium'
+                                >
+                                    Questionário lIFE
+                                </button>
                                 {navigation.map((item) => (
                                     <a
                                         key={item.name}
@@ -43,6 +51,7 @@ export default function Navbar() {
                                         {item.name}
                                     </a>
                                 ))}
+                                 
                             </div>
                         </div>
                     </div>
