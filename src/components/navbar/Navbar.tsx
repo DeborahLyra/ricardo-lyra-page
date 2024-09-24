@@ -60,6 +60,12 @@ export default function Navbar({ openQuestionnaire }: { openQuestionnaire: () =>
 
             <DisclosurePanel className="sm:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2">
+                <button
+                                    onClick={openQuestionnaire}
+                                    className='text-black hover:bg-sky-700 hover:text-white rounded-md px-3 py-2 text-md font-medium'
+                                >
+                                    Questionário lIFE
+                                </button>
                     {navigation.map((item) => (
                         <DisclosureButton
                             key={item.name}
