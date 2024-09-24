@@ -17,7 +17,8 @@ export function ModalQuestions({ closeModal }: any) {
         if (totalScore >= 22 && totalScore <= 25) return 'Leve';
         if (totalScore >= 17 && totalScore <= 21) return 'Leve a Moderada';
         if (totalScore >= 11 && totalScore <= 16) return 'Moderada';
-        return 'Grave';
+        if (totalScore >= 6 && totalScore <= 10) return 'Grave';
+        return ' ';
     };
 
     return (

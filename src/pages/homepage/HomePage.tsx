@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { AboutMe } from "../../components/about me/AboutMe";
 import { Banner } from "../../components/banner/Banner";
