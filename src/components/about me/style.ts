@@ -99,3 +99,7 @@ export const AboutMeImageVertical = styled.img`
       display: none;
     }
 `
+
+export const AboutMeText = styled.div`
+    width: 70%;
+`

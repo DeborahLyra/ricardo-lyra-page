@@ -6,9 +6,7 @@ export function Banner() {
     <BannerContainer >
       <div>
         <h1>Ricardo Lyra</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ea cumque corporis earum incidunt ut praesentium dolorem 
-            consectetur quam facere maiores.
+        <p>Médico Urologista e Andrologista
         </p>
         <DivButtons>
            <a href="#contact"> <button>Agende uma consulta</button></a>

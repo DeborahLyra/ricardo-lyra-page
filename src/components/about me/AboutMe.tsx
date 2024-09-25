@@ -1,4 +1,4 @@
-import { AboutMeContainer, AboutMeContent, AboutMeImageHorizontal, AboutMeImages, AboutMeImageVertical } from "./style";
+import { AboutMeContainer, AboutMeContent, AboutMeImageHorizontal, AboutMeImages, AboutMeImageVertical, AboutMeText } from "./style";
 import profilePic1 from '/public/static/ricardo-lyra-profile-2.jpeg'
 import profilePic2 from '/public/static/ricardo-lyra-profile-3.jpeg'
 
@@ -13,20 +13,21 @@ export function AboutMe() {
           <AboutMeImageVertical src={profilePic1} alt="ricardo lyra profile" />
         </AboutMeImages>
 
-        <div>
+        <AboutMeText>
           <p>
-            Médico Formado pela Upe/1991. <br />
-            Urologista formado no Hospital Getulio Vargas -Recife, formaÇao em andrologia no Instituto H.Hellis -Sao Paulo, membro titular da Sociedade Brasileira de Urologia,
-            membro da AssociaÇao Brasileira de Estudo em Medicina e Saude Sexual(ABEMSS), 
-            atuando no departamento de cirurgia peniana, preceptor de residencia médica e 
-            coordenador do ServiÇo de Andrologia do Hospital Getulio Vargas - Recife. Coordenador 
-            do serviÇo de urologia do Hospital EsperanÇa Olinda - Rede D'Or. <br />
+          • Médico Formado pela Upe/1991. <br />
+            • Urologista formado no Hospital Getulio Vargas - Recife, formaçao em andrologia no Instituto H.Hellis -São Paulo, <br />
+            • Membro titular da Sociedade Brasileira de Urologia,<br />
+            • Membro da AssociaÇao Brasileira de Estudo em Medicina e Saude Sexual(ABEMSS), <br />
+            • Atuando no departamento de cirurgia peniana, preceptor de residencia médica e 
+            coordenador do Serviço de Andrologia do Hospital Getulio Vargas - Recife. <br />
+            • Coordenador do serviço de urologia do Hospital Esperança Olinda - Rede D'Or. <br />
            <strong>
            CRM 9981- PE / CRM 13513-PB <br />
             RQE 5549 <br />
            </strong>
           </p>
-        </div>
+        </AboutMeText>
       </AboutMeContent>
 
     </AboutMeContainer>
