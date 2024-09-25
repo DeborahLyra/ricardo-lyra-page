@@ -34,7 +34,7 @@ export default function Navbar({ openQuestionnaire }: { openQuestionnaire: () =>
                                     onClick={openQuestionnaire}
                                     className='text-black hover:bg-sky-700 hover:text-white rounded-md px-3 py-2 text-md font-medium'
                                 >
-                                    Questionário lIFE
+                                    Teste a sua Função Erétil
                                 </button>
                                 {navigation.map((item) => (
                                     <a
@@ -64,7 +64,7 @@ export default function Navbar({ openQuestionnaire }: { openQuestionnaire: () =>
                                     onClick={openQuestionnaire}
                                     className='text-black hover:bg-sky-700 hover:text-white rounded-md px-3 py-2 text-md font-medium'
                                 >
-                                    Questionário lIFE
+                                    Teste a sua Função Erétil
                                 </button>
                     {navigation.map((item) => (
                         <DisclosureButton
