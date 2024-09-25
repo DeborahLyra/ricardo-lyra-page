@@ -1,6 +1,6 @@
 import { AboutMeContainer, AboutMeContent, AboutMeImageHorizontal, AboutMeImages, AboutMeImageVertical } from "./style";
-import profilePic1 from '/public/static/ricardo-lyra-profile-2.jpg'
-import profilePic2 from '/public/static/ricardo-lyra-profile-3.jpg'
+import profilePic1 from '/public/static/ricardo-lyra-profile-2.jpeg'
+import profilePic2 from '/public/static/ricardo-lyra-profile-3.jpeg'
 
 export function AboutMe() {
   return (

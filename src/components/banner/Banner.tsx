@@ -1,5 +1,5 @@
 import { BannerContainer, DivButtons } from "./style";
-import photoBanner from '/public/static/ricardo-lyra-profile.jpg'
+import photoBanner from '/public/static/ricardo-lyra-profile.jpeg'
 
 export function Banner() {
   return (
