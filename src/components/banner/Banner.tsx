@@ -6,8 +6,11 @@ export function Banner() {
     <BannerContainer >
       <div>
         <h1>Ricardo Lyra</h1>
-        <p>Médico Urologista e Andrologista
-        </p>
+        <p>Médico Urologista e Andrologista</p>
+        <strong>
+           CRM 9981- PE / CRM 13513-PB <br />
+            RQE 5549 <br />
+           </strong>
         <DivButtons>
            <a href="#contact"> <button>Agende uma consulta</button></a>
             <a href="#specialization"><button>Especialidades</button></a>

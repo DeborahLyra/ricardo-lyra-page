@@ -101,5 +101,5 @@ export const AboutMeImageVertical = styled.img`
 `
 
 export const AboutMeText = styled.div`
-    width: 70%;
+   
 `
