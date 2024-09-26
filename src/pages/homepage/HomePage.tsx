@@ -7,24 +7,30 @@ import { Header } from "../../components/Header/Header";
 import Navbar from "../../components/navbar/Navbar";
 import { Specialization } from "../../components/specialization/Specialization";
 import { Surgeries } from "../../components/surgeries/Surgeries";
-import {ModalQuestions} from "../../components/modalQuestions/ModalQuestions"
+import { ModalQuestions } from "../../components/modalQuestions/ModalQuestions";
 
 export function HomePage() {
   const [isModalOpen, setModalOpen] = useState(false);
 
-  const openQuestionnaire = () => setModalOpen(true);
-  const closeQuestionnaire = () => setModalOpen(false);
+  const toggleQuestionnaire = () => setModalOpen((prev) => !prev);
+
   return (
     <>
       <Header />
-      <Navbar openQuestionnaire={openQuestionnaire}/>
-      {isModalOpen && <ModalQuestions closeModal={closeQuestionnaire} />}
+      <Navbar openQuestionnaire={toggleQuestionnaire} />
+      {isModalOpen && <ModalQuestions closeModal={toggleQuestionnaire} />}
       <Banner />
-      <AboutMe/>
-      <Specialization/>
-      <Surgeries/>
-      <Contact/>
-      <Footer/>
+      <AboutMe />
+      <Specialization />
+      <Surgeries />
+      <Contact />
+      <Footer />
+      <button
+        className="lg:hidden md:hidden fixed bottom-8 right-8 text-black bg-sky-900 text-white hover:bg-sky-700 rounded-md px-4 py-3 text-md font-medium"
+        onClick={toggleQuestionnaire}
+      >
+        Teste Sua Função Erétil
+      </button>
     </>
-  )
+  );
 }
