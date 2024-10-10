@@ -26,7 +26,7 @@ export function HomePage() {
       <Contact />
       <Footer />
       <button
-        className="lg:hidden md:hidden fixed bottom-8 right-8 bg-black text-white hover:bg-sky-700 rounded-md px-4 py-3 text-md font-medium"
+        className="lg:hidden md:hidden fixed bottom-8 right-8 bg-sky-900 text-white hover:bg-sky-700 rounded-md px-4 py-3 text-md font-medium"
         onClick={toggleQuestionnaire}
       >
         Teste Sua Função Erétil
