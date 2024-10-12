@@ -42,7 +42,7 @@ export const Banner = () => {
   }, [currentIndex]);
 
   return (
-    <div className="max-w-full h-[450px] relative group md:h-[500px] lg:h-[550px] mt-0 md:mt-4 lg:mt-6">
+    <div className="max-w-full h-[200px] relative group md:h-[500px] lg:h-[550px] mt-0 md:mt-4 lg:mt-6">
       {/* Imagem */}
       <div
         className={`w-full h-full bg-contain bg-center transition-opacity duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover ${fade ? "opacity-100" : "opacity-0"} ${getBackgroundPosition()}`}
