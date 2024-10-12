@@ -3,7 +3,7 @@ import photo1 from '/public/static/banner-photo-1.png';
 import photo2 from '/public/static/banner-photo-2.png';
 import photo3 from '/public/static/banner-photo-3.png';
 
-const images = [photo1, photo2, photo3];
+const images = [photo1, photo2, photo3]; 
 
 export const Banner = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
