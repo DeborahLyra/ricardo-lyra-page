@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import photo1 from '/public/static/banner-photo-1.png';
 import photo2 from '/public/static/banner-photo-2.png';
 import photo3 from '/public/static/banner-photo-3.png';
