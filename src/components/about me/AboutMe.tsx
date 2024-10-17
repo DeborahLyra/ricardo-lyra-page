@@ -15,12 +15,12 @@ export function AboutMe() {
 
         <AboutMeText>
           <p>
-          • Médico Formado pela Upe/1991. <br />
-            • Urologista formado no Hospital Getulio Vargas - Recife, formaçao em andrologia no Instituto H.Hellis -São Paulo, <br />
+          • Médico Formado pela UPE/1991. <br />
+            • Urologista formado no Hospital Getúlio Vargas - Recife, formaçao em andrologia no Instituto H.Hellis -São Paulo, <br />
             • Membro titular da Sociedade Brasileira de Urologia,<br /> 
-            • Membro da AssociaÇao Brasileira de Estudo em Medicina e Saude Sexual(ABEMSS), <br /> 
+            • Membro da Associação Brasileira de Estudo em Medicina e Saude Sexual(ABEMSS), <br /> 
             • Atuando no departamento de cirurgia peniana, preceptor de residencia médica e 
-            coordenador do Serviço de Andrologia do Hospital Getulio Vargas - Recife. <br /> 
+            coordenador do Serviço de Andrologia do Hospital Getúlio Vargas - Recife. <br /> 
             • Coordenador do serviço de urologia do Hospital Esperança Olinda - Rede D'Or. <br /> 
           </p>
         </AboutMeText>
