@@ -19,7 +19,7 @@ export function Contact() {
               <p>Entre em contato pelo WhatsApp</p>
             </ContactInfo>
             <ContactInfo >
-              <a href="https://maps.app.goo.gl/LnjP9yiw3BTfvn137"><Phone size={40} color="#ffff"/></a>
+              <a href="tel: (81)9.8981-5885"><Phone size={40} color="#ffff"/></a>
               <p>Telefone para contato: (81)9.8981-5885</p>
             </ContactInfo>
           </ContactInfoContainer>
